@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "6b483aaf-e21f-447b-bffa-8aa174c563fe",
+		"name": "Test Uddug",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32539666"
+	},
+	"item": [
+		{
+			"name": "Test Uddug Task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"transactions\": [\r\n    {\r\n      \"Value\": 1000,\r\n      \"Timestamp\": 1616026242\r\n    },\r\n    {\r\n      \"Value\": 22000,\r\n      \"Timestamp\": 1616022643\r\n    },\r\n    {\r\n      \"Value\": 3000,\r\n      \"Timestamp\": 1616026244\r\n    },\r\n    {\r\n      \"Value\": 4000,\r\n      \"Timestamp\": 1616022645\r\n    },\r\n    {\r\n      \"Value\": 5000,\r\n      \"Timestamp\": 1616026246\r\n    },\r\n    {\r\n      \"Value\": 6000,\r\n      \"Timestamp\": 1616022647\r\n    },\r\n    {\r\n      \"Value\": 7000,\r\n      \"Timestamp\": 1616026237\r\n    },\r\n    {\r\n      \"Value\": 8000,\r\n      \"Timestamp\": 1616022142\r\n    },\r\n    {\r\n      \"Value\": 9000,\r\n      \"Timestamp\": 1616026218\r\n    },\r\n    {\r\n      \"Value\": 10000,\r\n      \"Timestamp\": 1616022649\r\n    }\r\n ],\r\n \"interval\": \"month\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/group-transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group-transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
